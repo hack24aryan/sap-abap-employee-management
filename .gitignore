@@ -1,0 +1,36 @@
+# SAP ABAP Project .gitignore
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# SAP specific
+*.saplink
+*.nugg
+
+# Compiled files
+*.class
+*.o
+*.pyc
+
+# Credentials and sensitive data
+*.pem
+*.key
+credentials.*
+password*
+saplogon.ini
+
+# Log files
+*.log
+
+# Temporary files
+tmp/
+temp/
